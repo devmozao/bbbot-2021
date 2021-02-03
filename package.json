@@ -1,4 +1,18 @@
 {
+  "license": "",
+  "private": true,
+  "engines": {
+    "node": "14.15.x",
+    "npm": "6.14.x-",
+    "yarn": "1.22.x"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^6.0.0"
+  },
   "devDependencies": {
     "nodemon": "^2.0.7"
   }
